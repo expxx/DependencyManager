@@ -34,11 +34,14 @@ tasks {
     }
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("mavenJar") {
-            artifact(tasks.shadowJar) {
-                builtBy(tasks.shadowJar)
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                from (components["kotlin"])
+                groupId = "com.github.expxx"
+                artifactId = "DependencyManager"
+                version = "1.0.0"
             }
         }
     }
