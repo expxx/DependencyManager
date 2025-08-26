@@ -34,6 +34,17 @@ tasks {
     }
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("mavenJar") {
+            artifact(tasks.shadowJar) {
+                builtBy(tasks.shadowJar)
+            }
+        }
+    }
+}
+
+
 tasks.test {
     useJUnitPlatform()
 }
