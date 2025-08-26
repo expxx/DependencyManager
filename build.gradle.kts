@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.2.0"
     id("com.gradleup.shadow") version "8.3.6"
+    id("maven-publish")
 }
 
 group = "dev.expx"
