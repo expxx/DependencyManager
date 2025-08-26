@@ -1,6 +1,6 @@
-package host.minestudio.frost.api.dependencies.resolver.impl
+package dev.expx.dependencies.resolver.impl
 
-import host.minestudio.frost.api.dependencies.resolver.lib.LibraryStore
+import dev.expx.dependencies.resolver.lib.LibraryStore
 import java.nio.file.Path
 
 /**

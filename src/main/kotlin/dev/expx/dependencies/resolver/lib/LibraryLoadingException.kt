@@ -1,4 +1,4 @@
-package host.minestudio.frost.api.dependencies.resolver.lib
+package dev.expx.dependencies.resolver.lib
 
 /**
  * @author PaperMC

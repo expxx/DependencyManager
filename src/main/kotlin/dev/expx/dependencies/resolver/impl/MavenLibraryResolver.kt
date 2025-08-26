@@ -1,8 +1,8 @@
-package host.minestudio.frost.api.dependencies.resolver.impl
+package dev.expx.dependencies.resolver.impl
 
-import host.minestudio.frost.api.dependencies.resolver.lib.ClassPathLibrary
-import host.minestudio.frost.api.dependencies.resolver.lib.LibraryLoadingException
-import host.minestudio.frost.api.dependencies.resolver.lib.LibraryStore
+import dev.expx.dependencies.resolver.lib.ClassPathLibrary
+import dev.expx.dependencies.resolver.lib.LibraryLoadingException
+import dev.expx.dependencies.resolver.lib.LibraryStore
 import java.io.File
 import java.util.ArrayList
 import org.apache.maven.repository.internal.MavenRepositorySystemUtils

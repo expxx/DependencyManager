@@ -1,4 +1,4 @@
-package host.minestudio.frost.api.dependencies.classpath
+package dev.expx.dependencies.classpath
 
 import java.lang.reflect.Method
 import java.net.URL
